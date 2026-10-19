@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
+# Os dados brutos permanecem no computador, não no repositório
+dados/*
+!dados/.gitkeep
+# Arquivos gerados localmente
+resultados/*
+!resultados/.gitkeep
+modelos/*
+!modelos/.gitkeep
