@@ -48,3 +48,10 @@ Os dados brutos e os resultados de máquina são ignorados pelo Git. `resultados
 - A seleção da MLP usa MAE de validação. O teste compara a MLP escolhida com persistência e Ridge.
 - A chuva é de uma estação distinta, não representa toda a bacia e sua disponibilidade no fim do próprio dia precisa ser confirmada.
 - A unidade/referência da cota ainda precisa ser confirmada nos metadados da estação. Percentis de nível são estatísticos, não limiares oficiais de cheia ou estiagem.
+
+
+## Vers?o 2 ? compara??es de janelas
+
+A V1 est? preservada em `notebooks/analise_redes_neurais.ipynb` e no checkpoint `notebooks/analise_redes_neurais_v1.ipynb`. A an?lise com janelas de 7, 15 e 30 dias est? em `notebooks/analise_redes_neurais_v2.ipynb`; ela grava m?tricas, previs?es e figuras em `resultados/v2/` sem sobrescrever os artefatos da V1. A interpreta??o e as limita??es da execu??o V2 est?o na se??o correspondente de `resultados/resultados.md`. Para reproduzir, abra o notebook V2 no VS Code, selecione o kernel `.venv` e execute todas as c?lulas em ordem.
+
+O roteiro de apresenta??o de cinco minutos foi atualizado para a V2 em `docs/ROTEIRO_APRESENTACAO.md`; a vers?o anterior est? preservada em `docs/ROTEIRO_APRESENTACAO_V1.md`.
