@@ -1,6 +1,7 @@
-numpy
-pandas
-matplotlib
-scikit-learn
-tensorflow
-ipykernel
+# Runtime dependencies for the ANA hydrology notebook (Python 3.13, Windows/Linux).
+numpy>=1.26,<2.2
+pandas>=2.2,<3
+matplotlib>=3.9,<4
+scikit-learn>=1.6,<2
+tensorflow>=2.20,<2.21
+ipykernel>=6.29,<8

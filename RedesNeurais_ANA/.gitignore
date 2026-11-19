@@ -9,5 +9,6 @@ dados/*
 # Arquivos gerados localmente
 resultados/*
 !resultados/.gitkeep
+!resultados/resultados.md
 modelos/*
 !modelos/.gitkeep
