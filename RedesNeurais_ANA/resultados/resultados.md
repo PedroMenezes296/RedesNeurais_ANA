@@ -200,3 +200,9 @@ Na MLP J7 com chuva, os alvos observados >=P90 tiveram MAE 108,762 (N=239) e vie
 Estudo retrospectivo e exploratorio num corte ja consultado por V1/V2. Disponibilidade operacional da chuva de t permanece hipotese; t-1 e comparacao conservadora. Unidade e referencial historico da cota seguem pendentes. Medias diarias nao representam maximas instantaneas. Confirmacao requer revisar metadados e avaliar periodo futuro/walk-forward.
 
 Artefatos: [notebook V3](../notebooks/analise_redes_neurais_v3.ipynb), [cobertura](v3/cobertura_e_splits.csv), [episodios](v3/episodios_p10_p90.csv), [chuva por episodio](v3/episodios_com_chuva.csv); demais tabelas e figuras em resultados/v3/. Execute no VS Code com kernel .venv, em ordem.
+
+## Versão 4 — implementação do notebook didático
+
+Foi criado [o notebook V4](../notebooks/analise_redes_neurais_v4.ipynb), derivado da estrutura de auditoria e modelagem da V3. A divisão foi adaptada para 80% cronológicos de desenvolvimento, com validação interna de 15% desse bloco, e os 20% finais reservados ao teste. Os notebooks V1, V2 e V3 e os CSVs de origem foram preservados.
+
+Esta entrega não inclui resultados numéricos da V4: o notebook não foi executado. Não foram reaproveitadas métricas das versões anteriores. O estado e as pendências para gerar e interpretar saídas reais estão registrados em [resultados/v4/README.md](v4/README.md). Antes de usar as faixas em metros, é necessário validar externamente a unidade e o referencial histórico da régua. A avaliação sobre o corte histórico conhecido deve ser tratada como exploratória.
